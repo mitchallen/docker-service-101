@@ -25,7 +25,7 @@ docker service ls
 docker stack services thing-lab 
 ```
 
-## Step 5. List 
+## Step 5. List service tasks
 
 List service tasks (name + underscore + yaml service name).
 
