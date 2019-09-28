@@ -125,10 +125,8 @@ Try again with different restart policies ("always", "unless-stop").
 
 ```
 docker stack rm thing-lab
-
-# Will have to run the init command first to recreate
-
 docker swarm leave --force
+# You will have to run the init command first to recreate
 ```
 
 ## References
